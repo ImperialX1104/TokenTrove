@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Hide the main scrollbar */
+body {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  overflow: -moz-scrollbars-none;
+  /* Firefox */
+}
+
+/* Create an invisible scrollbar track */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  /* Adjust as needed */
+}
+
+/* Style the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  /* Make the thumb transparent */
+}
+
+/* Create an offset to prevent content cutoff */
+body::before {
+  content: '';
+  display: block;
+  height: 100%;
+  /* Match the body height */
+  width: 0.5rem;
+  /* Same width as scrollbar */
+}
