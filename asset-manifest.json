@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TokenTrove/static/css/main.85096719.css",
+    "main.js": "/TokenTrove/static/js/main.362af31d.js",
+    "static/js/787.9fc98487.chunk.js": "/TokenTrove/static/js/787.9fc98487.chunk.js",
+    "index.html": "/TokenTrove/index.html",
+    "main.85096719.css.map": "/TokenTrove/static/css/main.85096719.css.map",
+    "main.362af31d.js.map": "/TokenTrove/static/js/main.362af31d.js.map",
+    "787.9fc98487.chunk.js.map": "/TokenTrove/static/js/787.9fc98487.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85096719.css",
+    "static/js/main.362af31d.js"
+  ]
+}
